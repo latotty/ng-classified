@@ -1,6 +1,10 @@
 'use strict';
 
-var apply = require('./apply');
+var apply = require('apply-fn');
+//var apply = require('../node_modules/apply-fn/src/apply');
+//var apply = require('../node_modules/apply-fn/dist/apply');
+//var apply = require('./apply-fn/apply');
+//var apply = require('./apply');
 
 var ngClassified = angular.module('ngClassified', [])
 .config(['$injector', function ($injector) {
